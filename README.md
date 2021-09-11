@@ -13,7 +13,7 @@ Users should be able to:
 
 -   Desktop Version
 
-![](./desktop-screenshot.jpg)
+![](./desktop-screenshot.png)
 
 -   Mobile Version
 
@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
--   [Live site URL here](https://your-live-site-url.com)
+-   [Live site URL here](https://tathanhdat.github.io/Huddle-landing-page-with-alternating-feature-blocks/)
 
 ### Built with
 
