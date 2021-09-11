@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap');
+
+@import url(./desktop.css) screen and (min-width: 800px);
+
+/* font-family: 'Open Sans', sans-serif; body
+font-family: 'Poppins', sans-serif; heading*/
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --very-dale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+    font-size: 18px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* BUTTON */
+.btn {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10rem;
+}
+
+.btn--white {
+    color: var(--very-dark-cyan);
+    background-color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.4rem 1.4rem;
+    box-shadow: 0 2px 4px hsla(208, 11%, 55%, 0.5);
+}
+
+.btn--white:hover {
+    color: var(--grayish-blue);
+}
+
+.btn--pink {
+    color: var(--very-dale-cyan);
+    background-color: var(--pink);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.6rem 3.2rem;
+    box-shadow: 0 2px 6px hsla(208, 11%, 55%, 0.8);
+}
+
+.btn--pink:hover {
+    background-color: hsl(322, 100%, 71%);
+}
+
+/* HEADER */
+header {
+    background: url(../images/bg-hero-mobile.svg) no-repeat;
+    background-color: var(--very-dale-cyan);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.header-logo {
+    width: 8rem;
+}
+
+.introduction {
+    padding: 1.5rem;
+}
+
+.introduction h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.introduction p {
+    color: var(--grayish-blue);
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.introduction__img {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+/* SHOWCASE */
+main {
+    padding: 2rem 0.1rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.showcase {
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsla(208, 11%, 55%, 0.2);
+    padding: 3rem 0.1rem 2rem;
+    margin: 1.5rem 1rem;
+}
+
+.showcase__img {
+    width: 250px;
+    margin: 1rem;
+}
+
+.showcase__content h3 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--very-dark-cyan);
+    margin: 1.5rem 0 1rem 0;
+}
+
+.showcase__content p {
+    color: var(--grayish-blue);
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 0 10px hsla(208, 11%, 55%, 0.3);
+    background-color: #fff;
+    width: 95%;
+    padding: 3rem 0;
+    margin: 1.5rem 0;
+    bottom: -5%;
+    z-index: 20;
+}
+
+.subscribe h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.subscribe .btn--pink {
+    font-size: 0.7rem;
+    padding: 0.6rem 3rem;
+}
+/* FOOTER */
+footer {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-dale-cyan);
+    padding: 8rem 0rem 2rem;
+}
+
+.footer-logo {
+    left: 1px;
+}
+
+.info-contact__box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.info-contact__box img {
+    width: 20px;
+    margin-right: 1.2rem;
+    padding-top: 5px;
+}
+
+.info-contact__box p,
+.info-contact__box a {
+    flex: 1;
+    display: block;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--very-dale-cyan);
+}
+
+.info-more {
+    padding-left: 1rem;
+}
+
+.info-more ul {
+    list-style: none;
+}
+
+.info-more li {
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+}
+
+.info-more li:hover {
+    text-decoration: underline;
+}
+
+.info-social {
+    text-align: center;
+}
+
+.info-social i {
+    color: white;
+    font-size: 1.5rem;
+    margin: 1.5rem 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.info-social i:hover {
+    color: hsl(322, 100%, 71%);
+}
+
+.copyright {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.attribute {
+    font-size: 0.5rem;
+    text-align: center;
+    margin-top: 5px;
+}
+.attribute a {
+    color: white;
+}

@@ -1,0 +1,152 @@
+/* BUTTON */
+.btn--white {
+    font-size: 1rem;
+    padding: 0.5rem 4rem;
+}
+
+.btn--pink {
+    font-size: 1rem;
+    padding: 1rem 5rem;
+}
+
+/* HEADER */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.header-logo {
+    width: 25rem;
+    padding: 2rem;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.introduction__content {
+    max-width: 700px;
+    text-align: left;
+}
+.introduction h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.introduction p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.introduction__img {
+    max-width: 40%;
+    margin-top: 0;
+}
+
+/* SHOWCASE */
+
+main {
+    padding-bottom: 18rem;
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 60%;
+}
+
+.showcase:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+}
+
+.showcase__img {
+    min-width: 400px;
+}
+
+.showcase__content {
+    max-width: 550px;
+    margin-left: 3rem;
+}
+
+.showcase__content h3 {
+    font-size: 2rem;
+}
+
+.showcase__content p {
+    padding: 0;
+    font-size: 1rem;
+}
+
+/*SUBSCRIBE*/
+.subscribe {
+    width: 40%;
+    padding: 3.9rem;
+    bottom: -6%;
+}
+
+.subscribe h2 {
+    font-size: 1.9rem;
+    margin-bottom: 3rem;
+}
+
+.subscribe .btn--pink {
+    font-size: 1.3rem;
+    padding: 1rem 3.8rem;
+}
+
+/* FOOTER */
+footer {
+    padding: 8rem 5rem 2rem;
+}
+
+.footer-logo {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.info {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.info-contact {
+    width: 33%;
+}
+
+.info-contact__box p,
+.info-contact__box a {
+    padding-right: 4rem;
+}
+
+.info-more {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.info-more li {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.info-social i {
+    font-size: 2rem;
+    margin: 0 1rem 0;
+}
